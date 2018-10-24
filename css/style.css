@@ -1,0 +1,142 @@
+.page-template-landingpage .site-header {
+  display: none;
+}
+.red-orange-color {
+  color: white;
+  background-color: #ff5940;
+}
+.red-orange-text-color {
+  color: #ff5940;
+}
+.full-demo #navbar-demo {
+  color: white;
+}
+.full-demo .neon-index {
+  z-index: 999;
+}
+.full-demo .neon-position {
+  position: relative;
+}
+.full-demo .neon-hex {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #020202;
+}
+.full-demo .neon-hex canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.full-demo .nav-link {
+  color: #f8f9fa;
+}
+.full-demo .nav-link.active {
+  background-color: #ff5940 !important;
+}
+.full-demo .section {
+  padding: 40px 0;
+}
+.full-demo .section-gray {
+  background-color: #f5f5f5;
+}
+.full-demo .bg-blue-gray {
+  background-color: #689;
+}
+.full-demo .demo-center {
+  top: 20%;
+}
+.full-demo .img-fluid {
+  height: 500px;
+}
+.full-demo .section-bule-gray {
+  color: white;
+  background-color: #5c7e8f;
+}
+.full-demo #gearing path {
+  fill-rule: evenodd;
+  stroke: #333;
+  stroke-width: 2px;
+}
+.full-demo #gearing .sun path {
+  fill: #6baed6;
+}
+.full-demo #gearing .planet path {
+  fill: #9ecae1;
+}
+.full-demo #gearing .annulus path {
+  fill: #c6dbef;
+}
+.full-demo .footer-header {
+  line-height: 35px;
+  padding: 15px 0;
+  color: white;
+  background-color: #252525;
+}
+.full-demo .footer-header aside {
+  margin-bottom: 40px;
+}
+.full-demo .divider {
+  height: 0;
+  margin: .5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+}
+.full-demo .reserved {
+  color: #666666;
+}
+.full-demo .author-social-media a {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+.full-demo .author-social-media .dashicons-facebook:hover {
+  color: #dc3545;
+}
+.full-demo .author-social-media .dashicons-email-alt:hover {
+  color: #007bff;
+}
+.full-demo .author-social-media .dashicons-twitter:hover {
+  color: #fd7e14;
+}
+@media screen and (max-width: 370px) {
+  .full-demo .carousel-item h2 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .full-demo .carousel-item h4 {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .full-demo .carousel-item .demo-center {
+    top: 0;
+    padding-top: 0;
+  }
+  .full-demo .carousel-item .btn {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+  }
+}
+@media screen and (max-width: 310px) {
+  .full-demo .carousel-item .demo-center h4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 290px) {
+  .full-demo .xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.modal-dialog .copy-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
